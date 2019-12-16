@@ -1,0 +1,55 @@
+/* ======================Layout ==========*/
+html, body{
+  height: 100%;
+}
+
+body{
+  border: 1px solid red;
+  background: url('imagens/capa.png'),
+              url('imagens/ruido.png'),
+              linear-gradient(50deg,#ff4169,#7cf6f8);
+  background-attachment: fixed;
+}
+
+/*Barra de navegação */
+
+.img-logo{
+  height: 40px;
+  width: 132px;
+  display: block; /* A tag span é inline e nós precisamos exibir como bloco*/
+  background: url('imagens/spotify.svg') no-repeat;
+  background-size: contain ; /*preenche todo o contuedo com a imagem*/
+  color:transparent;
+}
+
+/*sobrescrever os dados padroes do bootstrap*/
+nav.navbar-transparente{
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+
+}
+
+.navbar-brand{
+
+  padding: 5px 15px;
+}
+
+.divisor{
+  width: 1px;
+  height: 16px;
+  background: white;
+  margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
+
+/*imagem de capa*/
+
+/*===============Tipografia =============*/
