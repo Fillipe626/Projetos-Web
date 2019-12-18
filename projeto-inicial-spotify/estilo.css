@@ -1,14 +1,15 @@
 /* ======================Layout ==========*/
-html, body{
+html, body, .capa{
   height: 100%;
 }
 
 body{
-  border: 1px solid red;
+
   background: url('imagens/capa.png'),
               url('imagens/ruido.png'),
               linear-gradient(50deg,#ff4169,#7cf6f8);
   background-attachment: fixed;
+  font-family: Helvetica,Arial, sans-serif;
 }
 
 /*Barra de navegação */
@@ -52,4 +53,84 @@ nav.navbar-transparente{
 
 /*imagem de capa*/
 
+.capa{
+
+  display: table; /*Centralizar o texto verticalmente*/
+  width: 100%;
+  }
+
+.texto-capa{
+  text-align: center;
+  color : white;
+  display: table-cell; /*centralizar o texto verticalmente*/
+  vertical-align: middle; /*centralizar o texto verticalmente*/
+}
+
+/*botoes da capa*/
+
+.btn-custom {
+  color: white;
+  border-radius: 500px; /*arrendonda a borda do botao*/
+  padding: 10px 35px;
+  margin: 0px 15px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+
+}
+
+.btn-roxo{
+background: #7c25f8;
+
+}
+
+.btn-roxo:hover {
+background-color: #6207e3;
+color: white
+}
+
+.btn-branco{
+  border: 2px solid white;
+}
+
+.btn-branco:hover{
+  background-color: white;
+  color: black;
+}
+
+/*Secoo de servico*/
+
+#servicos{
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.albuns{
+  padding: 10px 0px 10px 0px;
+}
+
 /*===============Tipografia =============*/
+
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin-bottom: : 50px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 0.04
+}
+
+.texto-roxo{
+  color: #7c25f8;
+}
